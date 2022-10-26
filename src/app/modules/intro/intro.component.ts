@@ -21,6 +21,8 @@ export class IntroComponent implements OnInit {
 
   }
 
+  //Crear función que invierta colores de toda la web, o solo el blanco al negro
+
 
 
 }

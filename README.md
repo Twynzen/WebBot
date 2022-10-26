@@ -2,27 +2,33 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Structure Desing
+## 1. Inicio/Home/¿Quién soy?
+Una descripción de "Quién soy", Un listado de las habilidades tecnologicas que se muestren como barras de carga 
 
-## Code scaffolding
+<img src="src/assets/img/example_reference1.jpg" alt="drawing" style="width:200px;"/>
+<img src="src/assets/img/example_reference2.jpg" alt="drawing" style="width:200px;"/>
+<img src="src/assets/img/example_reference3.jpg" alt="drawing" style="width:200px;"/>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 2. Portafolio/MyWork/Proyectos/
+Una sala de experimentos que cada frasco tenga links de redirecciópn al los repositorios en github.
 
-## Build
+<img src="src/assets/img/example_reference4.png" alt="drawing" style="width:200px;"/>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 3. Certificados/Certificates/
+>Certificados puede cambiar o ser eliminada con el tiempo. Pero por el momento un slider que muestre lso documentos.
 
-## Running unit tests
+## 4. Contacto/Contact/Formulario de contacto
+Un formulario de contacto que contenga solo los campos de:
+  * Nombre
+  * Email
+  * Asunto
+  * Mensaje
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+úede tener este estilo de forumulario de videojuego en cuanto el trazo o bueno debe quedar general en toda la web
 
-## Running end-to-end tests
+<img src="src/assets/img/example_reference2.jpg" alt="drawing" style="width:200px;"/>
+<img src="src/assets/img/example_reference3.jpg" alt="drawing" style="width:200px;"/>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# WebBot
+example_reference
