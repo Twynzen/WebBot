@@ -29,6 +29,6 @@ Un formulario de contacto que contenga solo los campos de:
 úede tener este estilo de forumulario de videojuego en cuanto el trazo o bueno debe quedar general en toda la web
 
 <img src="src/assets/img/example_reference5.jpg" alt="drawing" style="width:200px;"/>
-<img src="src/assets/img/example_reference6.jpg" alt="drawing" style="width:200px;"/>
+<img src="src/assets/img/example_reference6.png" alt="drawing" style="width:200px;"/>
 
 example_reference
