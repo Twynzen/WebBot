@@ -10,6 +10,7 @@ export class IntroComponent implements OnInit {
   text: string = '';
   textWelcome: string = 'Hola bienvenido'
   char: string = '';
+  invertColors: boolean = false;
 
   constructor() { }
 
@@ -18,6 +19,8 @@ export class IntroComponent implements OnInit {
 
   hellouCat(){
     this.welcome = true;
+    this.invertColors = !this.invertColors;
+
 
   }
 
