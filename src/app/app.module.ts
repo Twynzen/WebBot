@@ -3,13 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IntroComponent } from './modules/intro/intro.component';
+import { CatComponent } from './modules/intro/cat.component';
 import { PlatformMenuComponent } from './modules/platform-menu/platform-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IntroComponent,
+    CatComponent,
     PlatformMenuComponent
   ],
   imports: [

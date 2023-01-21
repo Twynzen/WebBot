@@ -1,0 +1,25 @@
+
+<div class="cat" [ngClass]="{'cat-active': welcome, 'invert-colors':
+  invertColors }" (click)="hellouCat()">
+  <div class="ear ear--left"></div>
+  <div class="ear ear--right"></div>
+  <div class="face">
+    <div class="eye eye--left" [ngClass]="{'eye-active': welcome }">
+      <div class="eye-pupil" [ngClass]="{'eye-pupil-active': welcome }"></div>
+    </div>
+    <div class="eye eye--right" [ngClass]="{'eye-active': welcome }">
+      <div class="eye-pupil" [ngClass]="{'eye-pupil-active': welcome }"></div>
+    </div>
+    <div class="muzzle"></div>
+  </div>
+</div>
+
+<div class="text-dialog">
+  <h3 class="show-text" [ngClass]="{'show-text-active': newText }">{{textInWindow}}.
+    <span class="bar bar-active"> &#160;</span>
+  </h3>
+  <div *ngIf="welcome" class="continue" (click)="nextText(2)">
+    <img src="../../../assets/img/svg/play.svg" alt="">
+  </div>
+
+</div>
